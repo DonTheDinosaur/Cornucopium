@@ -15,11 +15,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(ShockTag.MOD_ID)
-public class ShockTag {
+@Mod(Cornucopium.MOD_ID)
+public class Cornucopium {
     public static final String MOD_ID = "cornucopium";
     private static final Logger LOGGER = LogUtils.getLogger();
-    public ShockTag() {
+    public Cornucopium() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
